@@ -3,25 +3,12 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+   max-width:100%;/*this is saying you can never be bigger than your parent*/
+  
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -64,3 +51,80 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav, .section1{
+    display: inline-block;
+               
+}
+
+span{margin: 50px;
+    
+}
+h1{
+ font-size: 300%;
+    text-align:center;    
+   }
+
+
+    
+
+
+.middle{
+    display: inline-block;
+    vertical-align:middle;
+    width: 25%;
+    margin-left: 17%    
+    
+   
+
+}
+        
+.middle getstart{
+    display:inline-block;
+     
+
+}
+
+.getstart{
+    margin-left: 27%;
+    width: 7%;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+
+}
+section{
+    
+border-top: black;
+border-bottom: black;
+    
+}
+    
+.box1, .box2{
+   display:inline-block;
+    width: 41%;
+    
+}
+.box2{
+    margin-left: 10%
+}
+
+.box3{
+    width: 
+}
+
+.box4, .box5, .box6{
+    display:inline-block;
+    width: 32%;
+    margin-bottom: 2%
+}
+p{
+    line-height:2; 
+    
+}
+
+.copyright{
+  text-align:center  
+}
